@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+}
+
+body {
+    cursor: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cb57eff2-9520-45de-b4f9-10872b8d71cb/d4siirv-34ed5b18-fefd-4362-9445-75db6131a841.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2NiNTdlZmYyLTk1MjAtNDVkZS1iNGY5LTEwODcyYjhkNzFjYlwvZDRzaWlydi0zNGVkNWIxOC1mZWZkLTQzNjItOTQ0NS03NWRiNjEzMWE4NDEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.XiwF5XXV0GV4gqfY52YmHJYS8x723qkKr426Kbz_we4),
+     auto;
+}
+
+footer {
+    height: 7rem;
+}
+
+.index-body{
+    background: url("https://img.freepik.com/free-photo/beige-earth-tone-design-space-background_53876-102507.jpg?w=2000")
+    no-repeat fixed;
+    cursor: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cb57eff2-9520-45de-b4f9-10872b8d71cb/d4siirv-34ed5b18-fefd-4362-9445-75db6131a841.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2NiNTdlZmYyLTk1MjAtNDVkZS1iNGY5LTEwODcyYjhkNzFjYlwvZDRzaWlydi0zNGVkNWIxOC1mZWZkLTQzNjItOTQ0NS03NWRiNjEzMWE4NDEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.XiwF5XXV0GV4gqfY52YmHJYS8x723qkKr426Kbz_we4),
+     auto;
+}
+
+a:link{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 1.15em;
+    font-weight: bold;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+a:visited {
+    color: #000;
+}
+
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    margin-left: 3em;
+    margin-right: 3em;
+    height: 70px;  
+    background-color: rgb(231, 220, 216);
+    border-radius: 10px;
+}
+
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li{
+    padding-left: 3em;
+}
+
+#navbar ul li a{
+    left: 1em;
+    padding: 1rem;
+    overflow: hidden;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: lighter;
+    font-size: 1.7em;
+    letter-spacing: 3px;
+}
+
+#navbar ul li a:hover{
+    background: rgb(233, 212, 197);
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.woman, .man {
+    display: none !important;
+    background-color: rgb(231, 220, 216);
+    padding: 20px;
+    font-size: 0.6em;
+    letter-spacing: 0.1em;
+}
+
+.woman p, .man p {
+    font-size: 1.3em;
+}
+
+#woman a:hover {
+    display: block;
+}
+
+#woman ul li a:hover {
+    background-color: rgb(231, 220, 216);
+    padding: 0;
+}
+
+#woman:hover .woman {
+    display: block !important;
+    margin-top: 0em;
+    color:#000;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 1;
+}
+
+#man a:hover {
+    display: block;
+}
+
+#man:hover .man {
+    display: block !important;
+    margin-top: 29em;
+    color:#000;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+#man ul li a:hover {
+    background-color: rgb(231, 220, 216);
+    padding: 0;
+}
+
+#index {
+    background-color: #e2d9ce;
+    left: 5em;
+    right: 5em;
+    top: 5em;
+    bottom: 5em;
+}
+
+.p-baslik p {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.index1 img, .index1-2 img, .index1-3 img {
+   padding: 0 0;
+   margin: 0;
+   width: 23em;
+   height: 16em;
+   align-self: center;
+   border-radius: 4px;
+   z-index: 2;
+}
+
+/* SLIDER FOR index1 */
+
+.yeni-sezon, .sezon-sonu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(231, 220, 216);
+    margin-left: 2em;
+    margin-right: 3em;
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.index1, .index1-2 , .index1-3 {
+    background-color: rgb(231, 220, 216);
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 10px;
+    position: relative;
+    width:600px;
+    height:300px;
+    overflow: hidden;
+    
+}
+
+.index2 {
+    background-color: rgb(231, 220, 216);
+}
+
+.index2 img {
+    padding: 0 0;
+    margin: 0;
+    margin-right: 2.2em;
+    width: 23em;
+    height: 16em;
+    align-self: center;
+    border-radius: 4px;
+}
+
+
+.hailey, .girls, .sadie, .sadie-2, .emily {
+    position: absolute;
+    width:1400px;
+    height:800px;
+    border-radius: 5px;
+}
+
+.sliderKonum {
+    position: relative;
+    width: 1400px;
+    height: 800px;
+    overflow: hidden;
+}
+
+.hailey {
+   left: 0px;
+}
+
+.girls {
+   left: 700px;
+}
+
+.sadie {
+   left: 1400px;
+}
+
+.sadie-2 {
+    left: 2100px;
+}
+
+.emily {
+    left: 2800px;
+}
+
+.sliderKonum > .slider{
+    position: absolute;
+    left:0px;
+    width: 2800px;
+    height: 400px;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-name: sliders;
+    -webkit-animation-iteration-count:infinite;
+    -moz-animation-duration: 20s;
+    -moz-animation-name: sliders;
+    -moz-animation-iteration-count:infinite;
+    -ms-animation-duration: 20s;
+    -ms-animation-name: sliders;
+    -ms-animation-iteration-count:infinite;
+    animation-duration: 20s;
+    animation-iteration-count:infinite;
+  }
+
+  .sliderKonum > .slider:hover {
+    -webkit-animation-play-state:paused;
+  }
+
+@-webkit-keyframes sliders{
+  0% {left:0px;}
+  10% {left:0px;}
+  20% {left:-700px;}
+  30% {left:-700px;}
+  40% {left:-1400px;}
+  50% {left:-1400px;}
+  60% {left:-2100px;}
+  70% {left:-2100px;}
+  80% {left:-2800px;}
+  90% {left:-2800px;}
+}
+
+@-moz-keyframes sliders {
+  0% {left:0px;}
+  10% {left:0px;}
+  20% {left:-700px;}
+  30% {left:-700px;}
+  40% {left:-1400px;}
+  50% {left:-1400px;}
+  60% {left:-2100px;}
+  70% {left:-2100px;}
+  80% {left:-2800px;}
+  90% {left:-2800px;}
+}
+
+@-ms-keyframes sliders {
+  0% {left:0px;}
+  10% {left:0px;}
+  20% {left:-700px;}
+  30% {left:-700px;}
+  40% {left:-1400px;}
+  50% {left:-1400px;}
+  60% {left:-2100px;}
+  70% {left:-2100px;}
+  80% {left:-2800px;}
+  90% {left:-2800px;}
+}
+
+@keyframes sliders {
+  0% {left:0px;}
+  10% {left:0px;}
+  20% {left:-700px;}
+  30% {left:-700px;}
+  40% {left:-1400px;}
+  50% {left:-1400px;}
+  60% {left:-2100px;}
+  70% {left:-2100px;}
+  80% {left:-2800px;}
+  90% {left:-2800px;}
+}
+
+.login-signup {
+    text-align: center;
+    z-index: -1;
+}
+
+.login-signup a {
+    font-family: 'Open Sans',sans-serif;
+    font-size:large;
+    font-weight: lighter;
+}
+
+.login-signup a:hover {
+    color: #000;
+    opacity: 1;
+}
+
+.login-signup .heading a {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 5px;
+    position: relative;
+    font-weight: lighter;
+}
+
+ #uye-ol {
+    margin-left: 70em;
+    z-index: 1;
+    top: 0;
+}
+
+/* .heading{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 5px;
+    position: relative;
+    font-weight: lighter;
+}
+
+.heading a {
+    font-family: 'Open Sans',sans-serif;
+    opacity: 1;
+    font-weight: lighter;
+} */
+
+/* WELCOME TO SITE STUFFS */
+
+.welcome-to-site {
+    min-height: calc(100vh - 7rem);
+}
+
+.heading-welcome a {
+    text-align: center !important;
+    font-size: 3em;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 5px;
+    position: relative;
+    font-weight: lighter;
+    margin-left: 13.5em;
+}
+
+.welcome-to-site h1 {
+    text-align: center;
+    margin-top: 2em;
+    font-weight: lighter;
+    font-size: 3em;
+}
+
+.welcome-to-site h2 {
+    text-align: center;
+    margin-top: 2em;
+    font-weight: normal;
+    font-size: 2em;
+}
+
+.welcome-to-site button {
+    margin-left: 41.5em;
+    margin-top: 2.5em;
+    padding: 2em;
+    background: #e2d9ce;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+.welcome-to-site button:hover {
+    cursor: pointer;
+}
+
+.welcome-to-site button:active {
+    background: #c69b78;
+}
+/* 
+backgrounds{
+    background: url("https://img.freepik.com/free-photo/beige-abstract-wallpaper-background-image_53876-102527.jpg?w=2000")
+    no-repeat fixed;
+    background: url("https://img.freepik.com/premium-photo/silk-fabric-organza-is-light-beige_133187-33.jpg?w=2000")
+    no-repeat fixed; 
+    https://i.pinimg.com/originals/ea/3a/b4/ea3ab42b8c81f5367b92c7da853ef428.jpg
+    https://cdn.wallpapersafari.com/36/5/iXTctJ.jpg
+    https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQozzy5EKI-POpXCFUSoVRDrsiW7d9biDPMBQz1WUcIGouTPX-mYzAvwp4L59x-u8v30w4&usqp=CAU
+    https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNk4H0Qv7mTMhXdwMAehYGEisnJYzfWSwccv_6yhE2_yUcXP2i2c79-JW4mjRhsfnC9bo&usqp=CAU
+    https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQjFGXxAYF5zDFdHbcvRpMg_V7m4FRxYukVQ&usqp=CAU
+    https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXctShufEmhfh6OgdpxgiQci5lA7BPU0JH-_9IH3m0-sq1ZB3R_3L2N81XKfS6un5Y3WA&usqp=CAU
+    https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ_K5Ol-KrEXnOhQ_i6fwBPEKFwdaJSFsCvOljOm0fTBz7f6ZMgVyI2R-7eK_hq-nwVjo&usqp=CAU
+    https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg0ZYepZ-gX9IkcaYuR92SdrK7zmni2UY0b5HD8ZmE2HVYWUwB7AAZzOteC59-Iba0Y_U&usqp=CAU
+    https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgoAPzviG552_J6z22LOlBRPNDTzXOvVsHphVBfTvnLKqsbXtJViy7T__s-tm55JftZco&usqp=CAU
+    https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBZDjxe-C51Q_XpVJ4oLfdYjjz9dJItZWpztzDve5Nfzwy0vR7FALs4JQrvGumkhowouM&usqp=CAU
+    https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy4FDfFf12S6Cpg5knM6KeSCiQLi6PA_EB-VkCgZtEEMv4ICBc7puJ9HsaqDGqz6KQ6JM&usqp=CAU
+
+} */

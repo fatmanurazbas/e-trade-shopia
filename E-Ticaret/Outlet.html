@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPIA</title>
+    <!-- Favicon  -->
+    <link rel="icon" href="https://img.favpng.com/0/12/18/shopping-cart-icon-background-png-favpng-KzMTfGPHz3y37xc3S6RR6ZSz1.jpg" type="image/x-icon" />
+    <!-- Open Sans Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <!-- Tags -->
+    <meta name="keyword" content="Shopia">
+    <meta name="description" content="Shopia">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" 
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Style CSS Files -->
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/outlet.css">
+
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="./css/tablet.css">
+    <!-- Mobile -->
+    <link rel="stylesheet" media="(max-width:500px)" href="./css/mobile.css">
+</head>
+<body class="outlet-body">
+
+    <section class="login-signup"> 
+        <p class="heading"><a href="./Index.html"> SHOPIA </a></p>
+        <a href="./Uye-Ol.html" id="uye-ol"> Üye Ol </a> <b style="font-style: large;"> | 
+        </b> <a href="./Giris-Yap.html" id="giris-yap"> Giriş Yap </a> 
+       </section>
+        
+        <header class="bg-light">
+            <div class="container">
+                <nav id="navbar">
+                    <ul>
+                        <li><a href="./Index.html"> ANASAYFA </a></li>
+                        <li id="woman">
+                            <a href="./Kadin.html"> KADIN </a>
+                              <ul class="woman">
+                                <p>
+                                    <b>Üst Giyim</b>
+                                    <li><a href="#"> Gömlek </a></li>
+                                    <li><a href="#"> Bluz </a></li>
+                                    <li><a href="#"> Tişört </a></li>
+                                    <li><a href="#"> Elbise </a></li>
+                                </p>
+                                <p>
+                                    <b>Alt Giyim</b>
+                                    <li><a href="#"> Pantolon </a></li>
+                                    <li><a href="#"> Etek </a></li>
+                                    <li><a href="#"> Tayt </a></li>
+                                    <li><a href="#"> Şort </a></li>
+                                </p>
+                                <p>
+                                    <b>Dış Giyim</b>
+                                    <li><a href="#"> Ceket </a></li>
+                                    <li><a href="#"> Mont </a></li>
+                                    <li><a href="#"> Kaban </a></li>
+                                </p>
+                              </ul>
+                        </li>
+                        <li id="man">
+                            <a href="./Erkek.html"> ERKEK </a>
+                            <ul class="man">
+                                <p>
+                                    <b>Üst Giyim</b>
+                                    <li><a href="#"> Gömlek </a></li>
+                                    <li><a href="#"> Tişört </a></li>
+                                </p>
+                                <p>
+                                    <b>Alt Giyim</b>
+                                    <li><a href="#"> Pantolon </a></li>
+                                    <li><a href="#"> Şort </a></li>
+                                </p>
+                                <p>
+                                    <b>Dış Giyim</b>
+                                    <li><a href="#"> Ceket </a></li>
+                                    <li><a href="#"> Mont </a></li>
+                                    <li><a href="#"> Kaban </a></li>
+                                </p>
+                            </ul>
+                        </li>
+                        <li><a href="./Yeni-Sezon.html"> YENİ SEZON </a></li>
+                        <li><a href="./Outlet.html">OUTLET </a></li>
+                        <li><a href="./Trend.html"> TREND ÜRÜNLER </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="outlet-baslik" >
+            <p> OUTLET </p>
+        </div>
+
+    <div class="filtre-outlet" style="display: flex; flex-direction: row; justify-content: space-between;">
+
+         <div class="filtre">
+       <br> <p style="margin-left: 2em;"><i class="fa-solid fa-filter"></i><b>Filtrele</b></p>
+        <section id="cinsiyet">
+            <p>Cinsiyet</p>
+             <input type="radio"  name="cinsiyet" value="Kadın"> <label for="html">Kadın</label> <br>
+             <input type="radio"  name="cinsiyet" value="Erkek"> <label for="html">Erkek</label>
+        </section>
+
+        <section id="fiyat">
+            <p>Fiyat Aralığı</p> <br>
+            <input id="fiyat-araligi" type="number" placeholder="0"> <!--<p id="tire"> - </p>  --> <input id="fiyat-araligi" type="number" placeholder="0">
+        </section>
+
+        <section id="beden">
+            <p> Beden </p> 
+            <input type="checkbox"> <label>XS</label> <br>
+            <input type="checkbox"> <label>S</label>  <br>
+            <input type="checkbox"> <label>M</label>  <br>
+            <input type="checkbox"> <label>L</label>  <br>
+            <input type="checkbox"> <label>XL</label> <br>
+            <input type="checkbox"> <label>XXL</label>
+        </section>
+
+        <a id="uygula-button" href="./Outlet.html"><input class="giris-button" type="submit" value="Uygula"> </a>
+         </div>
+
+    <div id="outlet">
+
+    <div id="urunler1">
+        <section class="outlet-urun">
+            <!-- <section class="fvrt-btn-wrppr">
+                <a href="#" class="unfavorite"><img src="./images/unfavorite.png" alt=""></a>
+                <a href="#" class="favorite"> <img src="./images/unfavorite.png" alt=""></a>
+            </section> -->
+            <img src="https://cdn.dsmcdn.com/mnresize/415/622/ty293/product/media/images/20220111/16/25035610/190083508/2/2_org.jpg" alt=""> 
+            <p class="outlet-urun-baslik"> <b> Shopia Mall </b> </p> <p class="outlet-urun-aciklama">Bej Kolsuz Elbise Astarı-İçlik</p>
+            <p class="yildiz-ikon">★★★★☆ (369) <i class="fa-solid fa-camera"></i> </p>
+            <p class="urun-fiyat"> <del> 127,99 TL </del>  119,99 TL</p>
+            
+        </section>
+        <section class="outlet-urun2">
+            <!-- <section class="fvrt-btn-wrppr2">
+                <a href="#" class="unfavorite"><img src="./images/unfavorite.png" alt=""></a>
+                <a href="#" class="favorite"> <img src="./images/unfavorite.png" alt=""></a>
+            </section> -->
+            <img src="https://cdn.dsmcdn.com/mnresize/415/622/ty511/product/media/images/20220818/18/162449967/348969823/2/2_org.jpg" alt="">
+            <p class="outlet-urun-baslik"> <b> Shopia Mall </b> </p> <p class="outlet-urun-aciklama"> Mavi Yüksek Bel Bootcut Jeans </p>
+            <p class="yildiz-ikon">★★★★☆ (882) <i class="fa-solid fa-camera"></i> </p>
+            <p class="urun-fiyat">  239,99 TL</p>
+        </section> 
+        <section class="outlet-urun3">
+            <!-- <section class="fvrt-btn-wrppr3">
+                <a href="#" class="unfavorite"><img src="./images/unfavorite.png" alt=""></a>
+                <a href="#" class="favorite"> <img src="./images/unfavorite.png" alt=""></a>
+            </section> -->
+             <img src="https://cdn.dsmcdn.com/ty328/product/media/images/20220209/17/47599109/82766003/2/2_org_zoom.jpg" alt="">
+            <p class="outlet-urun-baslik"> <b> Shopia Mall </b> </p> <p class="outlet-urun-aciklama">Gri Selanik Örme Eşofman Altı</p>
+            <p class="yildiz-ikon">★★★★★ (1253) <i class="fa-solid fa-camera"></i> </p>
+            <p class="urun-fiyat">  169,99 TL</p>
+        </section>                    
+    </div>
+    <div id="urunler1">
+        <section class="outlet-urun">
+            <!-- <section class="fvrt-btn-wrppr">
+                <a href="#" class="unfavorite"><img src="./images/unfavorite.png" alt=""></a>
+                <a href="#" class="favorite"> <img src="./images/unfavorite.png" alt=""></a>
+            </section> -->
+            <img src="https://cdn.dsmcdn.com/mnresize/415/622/ty293/product/media/images/20220111/16/25035610/190083508/2/2_org.jpg" alt=""> 
+            <p class="outlet-urun-baslik"> <b> Shopia Mall </b> </p> <p class="outlet-urun-aciklama">Bej Kolsuz Elbise Astarı-İçlik</p>
+            <p class="yildiz-ikon">★★★★☆ (369) <i class="fa-solid fa-camera"></i> </p>
+            <p class="urun-fiyat"> <del> 127,99 TL </del>  119,99 TL</p>
+            
+        </section>
+        <section class="outlet-urun2">
+            <!-- <section class="fvrt-btn-wrppr2">
+                <a href="#" class="unfavorite"><img src="./images/unfavorite.png" alt=""></a>
+                <a href="#" class="favorite"> <img src="./images/unfavorite.png" alt=""></a>
+            </section> -->
+            <img src="https://cdn.dsmcdn.com/mnresize/415/622/ty511/product/media/images/20220818/18/162449967/348969823/2/2_org.jpg" alt="">
+            <p class="outlet-urun-baslik"> <b> Shopia Mall </b> </p> <p class="outlet-urun-aciklama"> Mavi Yüksek Bel Bootcut Jeans </p>
+            <p class="yildiz-ikon">★★★★☆ (882) <i class="fa-solid fa-camera"></i> </p>
+            <p class="urun-fiyat">  239,99 TL</p>
+        </section> 
+        <section class="outlet-urun3">
+            <!-- <section class="fvrt-btn-wrppr3">
+                <a href="#" class="unfavorite"><img src="./images/unfavorite.png" alt=""></a>
+                <a href="#" class="favorite"> <img src="./images/unfavorite.png" alt=""></a>
+            </section> -->
+             <img src="https://cdn.dsmcdn.com/ty328/product/media/images/20220209/17/47599109/82766003/2/2_org_zoom.jpg" alt="">
+            <p class="outlet-urun-baslik"> <b> Shopia Mall </b> </p> <p class="outlet-urun-aciklama">Gri Selanik Örme Eşofman Altı</p>
+            <p class="yildiz-ikon">★★★★★ (1253) <i class="fa-solid fa-camera"></i> </p>
+            <p class="urun-fiyat">  169,99 TL</p>
+        </section>                    
+    </div>
+    <div id="urunler2">
+        <section class="outlet-urun4">
+            <!-- <section class="fvrt-btn-wrppr">
+                <a href="#" class="unfavorite"><img src="./images/unfavorite.png" alt=""></a>
+                <a href="#" class="favorite"> <img src="./images/unfavorite.png" alt=""></a>
+            </section> -->
+            <img src="https://cdn.dsmcdn.com/mnresize/415/622/ty293/product/media/images/20220111/16/25035610/190083508/2/2_org.jpg" alt=""> 
+            <p class="outlet-urun-baslik"> <b> Shopia Mall </b> </p> <p class="outlet-urun-aciklama">Bej Kolsuz Elbise Astarı-İçlik</p>
+            <p class="yildiz-ikon">★★★★☆ (369) <i class="fa-solid fa-camera"></i> </p>
+            <p class="urun-fiyat"> <del> 127,99 TL </del>  119,99 TL</p>
+            
+        </section>
+        <section class="outlet-urun5">
+            <!-- <section class="fvrt-btn-wrppr2">
+                <a href="#" class="unfavorite"><img src="./images/unfavorite.png" alt=""></a>
+                <a href="#" class="favorite"> <img src="./images/unfavorite.png" alt=""></a>
+            </section> -->
+            <img src="https://cdn.dsmcdn.com/mnresize/415/622/ty511/product/media/images/20220818/18/162449967/348969823/2/2_org.jpg" alt="">
+            <p class="outlet-urun-baslik"> <b> Shopia Mall </b> </p> <p class="outlet-urun-aciklama"> Mavi Yüksek Bel Bootcut Jeans </p>
+            <p class="yildiz-ikon">★★★★☆ (882) <i class="fa-solid fa-camera"></i> </p>
+            <p class="urun-fiyat">  239,99 TL</p>
+        </section> 
+        <section class="outlet-urun6">
+            <!-- <section class="fvrt-btn-wrppr3">
+                <a href="#" class="unfavorite"><img src="./images/unfavorite.png" alt=""></a>
+                <a href="#" class="favorite"> <img src="./images/unfavorite.png" alt=""></a>
+            </section> -->
+             <img src="https://cdn.dsmcdn.com/ty328/product/media/images/20220209/17/47599109/82766003/2/2_org_zoom.jpg" alt="">
+            <p class="outlet-urun-baslik"> <b> Shopia Mall </b> </p> <p class="outlet-urun-aciklama">Gri Selanik Örme Eşofman Altı</p>
+            <p class="yildiz-ikon">★★★★★ (1253) <i class="fa-solid fa-camera"></i> </p>
+            <p class="urun-fiyat">  169,99 TL</p>
+        </section> 
+    </div>
+    <div id="urunler3">
+        <section class="outlet-urun7">
+            <!-- <section class="fvrt-btn-wrppr">
+                <a href="#" class="unfavorite"><img src="./images/unfavorite.png" alt=""></a>
+                <a href="#" class="favorite"> <img src="./images/unfavorite.png" alt=""></a>
+            </section> -->
+            <img src="https://cdn.dsmcdn.com/mnresize/415/622/ty293/product/media/images/20220111/16/25035610/190083508/2/2_org.jpg" alt=""> 
+            <p class="outlet-urun-baslik"> <b> Shopia Mall </b> </p> <p class="outlet-urun-aciklama">Bej Kolsuz Elbise Astarı-İçlik</p>
+            <p class="yildiz-ikon">★★★★☆ (369) <i class="fa-solid fa-camera"></i> </p>
+            <p class="urun-fiyat"> <del> 127,99 TL </del>  119,99 TL</p>
+            
+        </section>
+        <section class="outlet-urun8">
+            <!-- <section class="fvrt-btn-wrppr2">
+                <a href="#" class="unfavorite"><img src="./images/unfavorite.png" alt=""></a>
+                <a href="#" class="favorite"> <img src="./images/unfavorite.png" alt=""></a>
+            </section> -->
+            <img src="https://cdn.dsmcdn.com/mnresize/415/622/ty511/product/media/images/20220818/18/162449967/348969823/2/2_org.jpg" alt="">
+            <p class="outlet-urun-baslik"> <b> Shopia Mall </b> </p> <p class="outlet-urun-aciklama"> Mavi Yüksek Bel Bootcut Jeans </p>
+            <p class="yildiz-ikon">★★★★☆ (882) <i class="fa-solid fa-camera"></i> </p>
+            <p class="urun-fiyat">  239,99 TL</p>
+        </section> 
+        <section class="outlet-urun9">
+            <!-- <section class="fvrt-btn-wrppr3">
+                <a href="#" class="unfavorite"><img src="./images/unfavorite.png" alt=""></a>
+                <a href="#" class="favorite"> <img src="./images/unfavorite.png" alt=""></a>
+            </section> -->
+             <img src="https://cdn.dsmcdn.com/ty328/product/media/images/20220209/17/47599109/82766003/2/2_org_zoom.jpg" alt="">
+            <p class="outlet-urun-baslik"> <b> Shopia Mall </b> </p> <p class="outlet-urun-aciklama">Gri Selanik Örme Eşofman Altı</p>
+            <p class="yildiz-ikon">★★★★★ (1253) <i class="fa-solid fa-camera"></i> </p>
+            <p class="urun-fiyat">  169,99 TL</p>
+        </section> 
+    </div>
+    <div id="urunler4">
+        <section class="outlet-urun10">
+            <!-- <section class="fvrt-btn-wrppr">
+                <a href="#" class="unfavorite"><img src="./images/unfavorite.png" alt=""></a>
+                <a href="#" class="favorite"> <img src="./images/unfavorite.png" alt=""></a>
+            </section> -->
+            <img src="https://cdn.dsmcdn.com/mnresize/415/622/ty293/product/media/images/20220111/16/25035610/190083508/2/2_org.jpg" alt=""> 
+            <p class="outlet-urun-baslik"> <b> Shopia Mall </b> </p> <p class="outlet-urun-aciklama">Bej Kolsuz Elbise Astarı-İçlik</p>
+            <p class="yildiz-ikon">★★★★☆ (369) <i class="fa-solid fa-camera"></i> </p>
+            <p class="urun-fiyat"> <del> 127,99 TL </del>  119,99 TL</p>
+            
+        </section>
+        <section class="outlet-urun11">
+            <!-- <section class="fvrt-btn-wrppr2">
+                <a href="#" class="unfavorite"><img src="./images/unfavorite.png" alt=""></a>
+                <a href="#" class="favorite"> <img src="./images/unfavorite.png" alt=""></a>
+            </section> -->
+            <img src="https://cdn.dsmcdn.com/mnresize/415/622/ty511/product/media/images/20220818/18/162449967/348969823/2/2_org.jpg" alt="">
+            <p class="outlet-urun-baslik"> <b> Shopia Mall </b> </p> <p class="outlet-urun-aciklama"> Mavi Yüksek Bel Bootcut Jeans </p>
+            <p class="yildiz-ikon">★★★★☆ (882) <i class="fa-solid fa-camera"></i> </p>
+            <p class="urun-fiyat">  239,99 TL</p>
+        </section> 
+        <section class="outlet-urun12">
+            <!-- <section class="fvrt-btn-wrppr3">
+                <a href="#" class="unfavorite"><img src="./images/unfavorite.png" alt=""></a>
+                <a href="#" class="favorite"> <img src="./images/unfavorite.png" alt=""></a>
+            </section> -->
+             <img src="https://cdn.dsmcdn.com/ty328/product/media/images/20220209/17/47599109/82766003/2/2_org_zoom.jpg" alt="">
+            <p class="outlet-urun-baslik"> <b> Shopia Mall </b> </p> <p class="outlet-urun-aciklama">Gri Selanik Örme Eşofman Altı</p>
+            <p class="yildiz-ikon">★★★★★ (1253) <i class="fa-solid fa-camera"></i> </p>
+            <p class="urun-fiyat">  169,99 TL</p>
+        </section> 
+    </div>
+
+    </div>
+
+    </div>
+
+    <footer id="contact" class="bg-dark-blue" style="position:inherit; bottom:0; width: 100%; margin: 0 auto;">
+        <div class="contact-form">
+            <form>
+                <h5>Sosyal Medya Hesaplarımız:</h5>
+                <ul>
+                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/FatmanurAzbas"><i class="fab fa-twitter" target="_blank"></i></a></li>
+                    <li><a href="https://www.instagram.com/nurazbs/"><i class="fab fa-instagram" target="_blank"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCGor9AutJz7DD57_lXIuHcg" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>

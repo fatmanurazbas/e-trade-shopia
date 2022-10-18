@@ -1,0 +1,492 @@
+.outlet-body{
+    background: url("https://img.freepik.com/premium-photo/silk-fabric-organza-is-light-beige_133187-33.jpg?w=2000")
+    no-repeat fixed; 
+}
+
+.outlet-baslik {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* #outlet {
+    min-height: calc(100vh - 7rem);
+    background: #e7dcd8;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-y: scroll;
+    scrollbar-color: #e7dcd8;
+    scrollbar-base-color: #e7dcd8;
+    scroll-behavior: smooth;
+    scroll-snap-type: proximity;
+    overflow-x: hidden;
+}
+
+.urunler1 , .urunler2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#outlet-urun {
+    background-color: #e4c6af;
+    height: 23.5em;
+    width: 13em;
+    margin-top: 1.5em;
+    margin-left: 1.6em;
+    margin-right: 4em;  
+    border-radius: 4px;
+}
+
+#outlet-urun:hover {
+    cursor: pointer;
+}
+
+section[id="outlet-urun"] img {
+    width: 13em;
+    height: 18em;
+    border-radius: 4px;
+}
+
+.outlet-urun-baslik {
+    font-size:0.8em;
+}
+
+.urun-fiyat {
+    font-size: 0.8em;
+}
+
+.outlet-urun-aciklama, .yildiz-ikon {
+    font-size: 0.8em;
+    font-weight:normal;
+}
+
+.yildiz-ikon:hover {
+    text-decoration: underline;
+}
+
+
+.fvrt-btn-wrppr {
+    position: absolute;
+    top: 15.5em;
+    right: 61.4em;
+    cursor: pointer;
+}
+
+.fvrt-btn-wrppr2 {
+    position: absolute;
+    top: 15.5em;
+    right: 43em;
+    cursor: pointer;
+}
+
+.fvrt-btn-wrppr3 {
+    position: absolute;
+    top: 15.5em;
+    right: 24.3em;
+    cursor: pointer;
+}
+
+.fvrt-btn-wrppr4 {
+    position: absolute;
+    top: 15.5em;
+    right: 5.8em;
+    cursor: pointer;
+}
+
+.fvrt-btn-wrppr5 {
+    position: absolute;
+    top: 25.5em;
+    right: 61.4em;
+    cursor: pointer;
+}
+
+a[class="unfavorite"] img {
+    float: left;
+    width: 15px;
+    height: 15px;
+}
+
+a[class="favorite"] img {
+    display: none;
+    float: left;
+    width: 13px;
+    height: 13px;
+}
+
+a[class="unfavorite"] img:visited  a[class="favorite"] img{
+    display: block;
+    background-image: url("E:/VS Code/E-Ticaret/images/favorite.png");
+}
+
+a[class="unfavorite"]:visited {
+    display: none;
+}
+
+#outlet .heading a:hover {
+    opacity: 1;
+} */
+
+/* FİLTRE */
+.filtre {
+    background-color: #d3b8a3;
+    height: 40em;
+    width: 15em;
+    border-radius: 6px;
+    margin-left: 2em;
+}
+
+i {
+    margin-right: 0.5em;
+}
+
+section[id] {
+    margin: 2em;
+    background-color: #e7dcd8;
+    height: 6.5em;
+    width: 11em;
+}
+
+section[id="cinsiyet"] {
+    height: 5em;
+    border-radius: 7px;
+}
+
+section[id="beden"] {
+    height: 10em;
+    border-radius: 7px;
+}
+
+input[name="cinsiyet"] {
+    margin-left: 1.5em;
+    margin-top: 0;
+}
+
+input[id="fiyat-araligi"] {
+    margin-left: 0.5em;
+    margin-bottom: 0.2em;
+    width: 5em;
+}
+
+input[type="checkbox"]{
+    margin-left: 1em;   
+}
+
+#tire {
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: center;
+}
+
+section[id="fiyat"] {
+    border-radius: 7px;
+}
+
+section p {
+    font-weight: bold;
+    margin-left: 1em;
+    margin-bottom: 0.2em;
+}
+
+#uygula-button {
+    margin-left: 4em;
+}
+
+.giris-button {
+    border-radius:  7px;
+    border-width: 0.1em;
+    border-color: #d3b8a3;
+    border-right: #d3b8a3;
+    border-bottom: #d3b8a3;
+}
+
+.giris-button:hover {
+    cursor: pointer;
+}
+
+input[value="Uygula"] {
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 1em;
+}
+
+
+/* SCROLL BARLAR */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 3px;
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #d3b8a3; 
+    border-radius: 3px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #d3b8a3; 
+}
+
+#urunler1, #urunler2, #urunler3, #urunler4 {
+    min-height: calc(100vh - 7rem);
+    display: flex;
+    flex-direction: row;
+    clear: both;   
+    justify-content: space-between;
+    margin: 0;
+}
+
+
+#outlet {
+    min-height: calc(100vh - 7rem);
+    background: #e7dcd8;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 0.1em;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: scroll;
+    scrollbar-color: #e7dcd8;
+    scrollbar-base-color: #e7dcd8;
+    scroll-behavior: smooth;
+    scroll-snap-type: proximity;
+    overflow-x: hidden;
+    width: 90%;
+}
+
+.outlet-urun {
+    background-color: #e4c6af;
+    height: 23.5em;
+    width: 13em;
+    margin-top: 1.5em;
+    margin-left: 1.6em;
+    margin-right: 1em;  
+    border-radius: 4px;
+}
+
+.outlet-urun2 {
+    background-color: #e4c6af;
+    height: 23.5em;
+    width: 13em;
+    margin-top: 1.5em;
+    margin-left: 1.6em;
+    margin-right: 4em;  
+    border-radius: 4px;
+}
+
+.outlet-urun3 {
+    background-color: #e4c6af;
+    height: 23.5em;
+    width: 13em;
+    margin-top: 1.5em;
+    margin-left: 1.6em;
+    margin-right: 4em;  
+    border-radius: 4px;
+}
+
+.outlet-urun4 {
+    background-color: #e4c6af;
+    height: 23.5em;
+    width: 13em;
+    margin-top: 0;
+    top: 0;
+    padding: 0;
+    margin-left: 1.6em;
+    margin-right: 4em;  
+    border-radius: 4px;
+}
+
+.outlet-urun5 {
+    background-color: #e4c6af;
+    height: 23.5em;
+    width: 13em;
+    margin-top: 0;
+    top: 0;
+    padding: 0;
+    margin-left: 1.6em;
+    margin-right: 4em;  
+    border-radius: 4px;
+}
+
+.outlet-urun6 {
+    background-color: #e4c6af;
+    height: 23.5em;
+    width: 13em;
+    margin-top: 0;
+    top: 0;
+    padding: 0;
+    margin-left: 1.6em;
+    margin-right: 4em;  
+    border-radius: 4px;
+}
+
+.outlet-urun7 {
+    background-color: #e4c6af;
+    height: 23.5em;
+    width: 13em;
+    margin-top: 0;
+    top: 0;
+    padding: 0;    
+    margin-left: 1.6em;
+    margin-right: 4em;  
+    border-radius: 4px;
+}
+
+.outlet-urun8 { 
+    background-color: #e4c6af;
+    height: 23.5em;
+    width: 13em;
+    margin-top: 0;
+    top: 0;
+    padding: 0;
+    margin-left: 1.6em;
+    margin-right: 4em;  
+    border-radius: 4px;
+}
+
+.outlet-urun9 {
+    background-color: #e4c6af;
+    height: 23.5em;
+    width: 13em;
+    margin-top: 0;
+    top: 0;
+    padding: 0;
+    margin-left: 1.6em;
+    margin-right: 4em;  
+    border-radius: 4px;
+}
+
+.outlet-urun10 {
+    background-color: #e4c6af;
+    height: 23.5em;
+    width: 13em;
+    margin-top: 1.5em;
+    margin-left: 1.6em;
+    margin-right: 4em;  
+    border-radius: 4px;
+}
+
+.outlet-urun11 {
+    background-color: #e4c6af;
+    height: 23.5em;
+    width: 13em;
+    margin-top: 1.5em;
+    margin-left: 1.6em;
+    margin-right: 4em;  
+    border-radius: 4px;
+}
+
+.outlet-urun12 {
+    background-color: #e4c6af;
+    height: 23.5em;
+    width: 13em;
+    margin-top: 1.5em;
+    margin-left: 1.6em;
+    margin-right: 4em;  
+    border-radius: 4px;
+}
+
+section[class="outlet-urun"] img {
+    width: 13em;
+    height: 18em;
+    border-radius: 4px;
+}
+
+section[class="outlet-urun2"] img {
+    width: 13em;
+    height: 18em;
+    border-radius: 4px;
+}
+
+section[class="outlet-urun3"] img {
+    width: 13em;
+    height: 18em;
+    border-radius: 4px;
+}
+
+section[class="outlet-urun4"] img {
+    width: 13em;
+    height: 18em;
+    border-radius: 4px;
+}
+
+section[class="outlet-urun5"] img {
+    width: 13em;
+    height: 18em;
+    border-radius: 4px;
+}
+
+section[class="outlet-urun6"] img {
+    width: 13em;
+    height: 18em;
+    border-radius: 4px;
+}
+
+section[class="outlet-urun7"] img {
+    width: 13em;
+    height: 18em;
+    border-radius: 4px;
+}
+
+section[class="outlet-urun8"] img {
+    width: 13em;
+    height: 18em;
+    border-radius: 4px;
+}
+
+section[class="outlet-urun9"] img {
+    width: 13em;
+    height: 18em;
+    border-radius: 4px;
+}
+
+section[class="outlet-urun10"] img {
+    width: 13em;
+    height: 18em;
+    border-radius: 4px;
+}
+
+section[class="outlet-urun11"] img {
+    width: 13em;
+    height: 18em;
+    border-radius: 4px;
+}
+
+section[class="outlet-urun12"] img {
+    width: 13em;
+    height: 18em;
+    border-radius: 4px;
+}
+
+.outlet-urun-baslik {
+    font-size:0.8em;
+}
+
+.urun-fiyat {
+    font-size: 0.8em;
+}
+
+.outlet-urun-aciklama, .yildiz-ikon {
+    font-size: 0.8em;
+    font-weight:normal;
+}
+

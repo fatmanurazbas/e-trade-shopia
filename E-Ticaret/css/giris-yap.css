@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+a:visited { 
+    color: #000;
+}
+
+footer {
+    height: 7rem;
+}
+
+.giris-yap-body {
+    background: url("https://i.pinimg.com/originals/ea/3a/b4/ea3ab42b8c81f5367b92c7da853ef428.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+.giris-yap-body .heading {   
+        text-align: center !important;
+        font-size: 3em;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 5px;
+        position: relative;
+        font-weight: lighter;       
+        list-style: none;
+}
+
+.login-write {
+    margin-top: 1.5em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#giris-yap {
+    background: #e4c6af;
+    border-radius: 10px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 25em;
+    margin-right: 25em;
+    opacity: 0.9;
+    min-height: calc(100vh - 7rem);
+    display: flex;
+    flex-direction: column;
+}
+
+#giris-yap input {
+    margin-top: 2em;
+    margin-right: 12em;
+    margin-bottom: 2em;
+    margin-left: 12em;
+    padding: 1em 1em;
+    font-size: 1em;
+    border-radius: 5px;
+    border: #e4c6af;
+}
+
+#giris-yap input:focus {
+    border: #b78055;
+}
+
+.giris-button, .iptal-button {
+    background: #e9d4c5;
+    padding: 1em;
+    font-weight: bold;
+    margin-left: 14.5em;
+    margin-right: 14.5em;
+    border: #b78055;
+    border-radius: 15px;
+}
+
+.giris-button:hover {
+    cursor: pointer;
+}
+
+.iptal-button:hover {
+    cursor: pointer;
+}
+
+.giris-button:active {
+    background-color: #c69b78;
+}
+
+.iptal-button:active {
+    background-color: #c69b78;
+}
+
+#giris-yap a {
+    margin-left: 12em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    padding: 1em;
+}
+
+#giris-yap a:visited {
+    color: #000;
+}

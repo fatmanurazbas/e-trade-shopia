@@ -1,0 +1,28 @@
+#contact{
+    color: #000;
+    padding: 1rem;
+}
+
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contact-form ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self:flex-start;
+}
+
+#contact .contact-form ul li a{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+#contact .contact-form ul li a:hover{
+    opacity: 0.8;
+}

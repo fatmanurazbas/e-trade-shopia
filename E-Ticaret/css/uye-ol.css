@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+a:visited { 
+    color: #000;
+}
+
+footer {
+    height: 7rem;
+}
+
+.heading {  
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 5px;
+    position: relative;
+    font-weight: lighter;       
+    list-style: none;
+}
+
+.uye-ol-body {
+    background: url("https://i.pinimg.com/originals/ea/3a/b4/ea3ab42b8c81f5367b92c7da853ef428.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+#uye-ol {
+    background: #e4c6af;
+    border-radius: 10px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 18em;
+    margin-right: 18em;
+    opacity: 0.9;
+    min-height: calc(100vh - 7rem);
+    display: flex;
+    flex-direction: column;
+}
+
+.uyeol-write p{
+    margin-top: 1.5em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.butonlar, .ad-soyad, .mail-sifre, .telefon-adres {
+   display: flex;
+   display: flexbox; 
+   flex-direction: row;
+}
+
+.giris-button, .iptal-button {
+    background: #c69b78;
+    padding: 3%;
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.giris-button {
+    margin-left: 550%;
+    background: #c69b78;
+    padding: 45%;
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.iptal-button {
+    margin-left: 45% !important;
+    margin-right: 52.5%;
+}
+
+.giris-button:hover {
+    cursor: pointer;
+}
+
+.iptal-button:hover {
+    cursor: pointer;
+}
+
+.giris-button:active {
+    background: #e4c6af;
+}
+
+.iptal-button:active {
+    background: #e4c6af;
+}
+
+#name, #lname, #email, #myInput, #phone, #adress {
+    padding: 1em;
+    border-radius: 9px;
+    font-size: medium;
+}
+
+#name, #email, #phone {
+    margin-left: 10em;
+    margin-bottom: 2em;
+}
+
+#lname, #myInput, #adress  {
+    margin-left: 10em;
+    margin-bottom: 2em;
+}
+
+#adress, #phone {
+    margin-bottom: 5em;
+}
